@@ -8,6 +8,6 @@ def main():
     print(f'My name is {name},',
           f'I am {age} years old,',
           f'My Degree is {degree}/4.0 in {speciality} and',
-          f'the time now is {today:%A %B %d, %Y}' )
+          f'the time now is {today:%A %B %d, %Y}',sep="\n" )
     
 main()
